@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+
+@theme inline {
+    --color-brand: var(--color-primary);
+    --color-brand-soft: var(--color-primary-soft);
+    --color-accent: var(--color-link);
+    --color-page: var(--color-bg);
+    --color-panel: var(--color-surface);
+    --color-line: var(--color-border);
+    --color-ink: var(--color-text);
+    --color-muted: var(--color-text-secondary);
+    --color-danger: var(--color-error);
+}
