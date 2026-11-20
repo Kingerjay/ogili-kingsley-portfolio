@@ -3,6 +3,7 @@ import { Navigate, useLocation } from 'react-router-dom'
 import { navItems } from '../../data/navigation'
 import { sectionComponents } from '../../sections'
 import Footer from './Footer'
+import BackToTop from '../ui/BackToTop'
 
 export default function MobileView() {
   const { pathname, key } = useLocation()
@@ -46,6 +47,7 @@ export default function MobileView() {
         )
       })}
       <Footer />
+      <BackToTop />
     </div>
   )
 }
